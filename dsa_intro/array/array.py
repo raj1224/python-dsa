@@ -9,6 +9,16 @@ val = [1,2,3,4,5]
 for i in val:
     print(i)
 
+# length
+len(val)
+
+# range
+for i in range(len(val)):
+    print(val[i])
+
+for i in range(len(val)-1, -1, -1): # how it works: start from the last index, go to the first index, decrement by 1
+    print(val[i])
+
 # REVERSE
 val.reverse()
 print('\n')
@@ -22,12 +32,8 @@ val.pop()
 val.pop("index")
 val.remove(10)
 
-# length
-len(val)
 
-# range
-for i in range(len(val)):
-    print(val[i])
+
 
 # new array with older array
 abc = val["start":"end"]

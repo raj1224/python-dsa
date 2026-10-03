@@ -1,5 +1,5 @@
 class Solution:
-    # Function to check if any two numbers sum up to target (variant 1)
+    # Function to check if any two numbers sum up to target (variant 1
     def two_sum_exists(self, arr, target):
         n = len(arr)
         # Outer loop picks one element at a time
